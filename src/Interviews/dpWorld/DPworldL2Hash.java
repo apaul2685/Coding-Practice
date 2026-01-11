@@ -13,10 +13,9 @@ public class DPworldL2Hash {
             if (currsum==output){
                 System.out.println("index found at : "+ 0 + "and " + i);
             }
-            if (map.containsKey(currsum-output)){
+            else if (map.containsKey(currsum-output)){
                 System.out.println("index found at : "+ (map.get(currsum-output)+1) + " and "+ i);
             }
-
             map.put(currsum,i);
         }
     }
