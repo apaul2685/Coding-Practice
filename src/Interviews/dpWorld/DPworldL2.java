@@ -2,8 +2,6 @@ package Interviews.dpWorld;
 
 public class DPworldL2 {
 
-//   String input  = integer array {7,3,4,5,8,4}
-//    input 2  = 12
 
     void subarray (int a[], int output){
         for(int i = 0; i<a.length;i++){
