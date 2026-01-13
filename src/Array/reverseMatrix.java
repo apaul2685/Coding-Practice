@@ -1,7 +1,8 @@
 package Array;
 
 public class reverseMatrix {
-  public void reverseMat (int[][] matrix){
+
+    public void reverseMat (int[][] matrix){
         int rows = matrix.length;
         int column = matrix[0].length;
 
